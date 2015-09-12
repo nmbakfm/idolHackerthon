@@ -10,6 +10,7 @@
 
 CircleRippleScene::CircleRippleScene(){
     
+    ofBackground(255);
 }
 
 void CircleRippleScene::update(){

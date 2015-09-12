@@ -1,34 +1,32 @@
 //
-//  StarDust.cpp
+//  DropStarDust.cpp
 //  idolHackerthon
 //
 //  Created by NAMBU AKIFUMI on 2015/09/12.
 //
 //
 
-#include "StarDust.h"
+#include "DropStarDust.h"
 
-ofImage StarDust::star_image;
+ofImage DropStarDust::star_image;
 
-StarDust::StarDust(ofVec2f _pos){
+DropStarDust::DropStarDust(){
     alpha = 255;
-    pos = _pos;
-    vel = ofVec2f(ofRandom(-1,1), ofRandom(-1, 1)).normalize() * ofRandom(5);
+    pos = ofVec2f(ofRandomWidth(), -100);
     angle = ofRandom(0,360);
 }
 
-void StarDust::init(){
+void DropStarDust::init(){
     star_image.loadImage("star.png");
 }
 
-void StarDust::update(){
-    vel += ofVec2f(0,0.1);
-    pos += vel;
-    alpha -= 5;
+void DropStarDust::update(){
+    pos += ofVec2f(0, 2);
+    alpha -= 1;
     angle += 2;
 }
 
-void StarDust::draw(){
+void DropStarDust::draw(){
     ofSetColor(255, 255, 0, alpha);
     ofPushMatrix();
     ofTranslate(pos);
@@ -37,6 +35,6 @@ void StarDust::draw(){
     ofPopMatrix();
 }
 
-bool StarDust::isDead(){
+bool DropStarDust::isDead(){
     return alpha <= 0;
 }

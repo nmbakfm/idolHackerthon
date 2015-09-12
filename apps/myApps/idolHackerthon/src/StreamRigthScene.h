@@ -1,25 +1,24 @@
 //
-//  StarDustScene.h
+//  StreamRigthScene.h
 //  idolHackerthon
 //
 //  Created by NAMBU AKIFUMI on 2015/09/12.
 //
 //
 
-#ifndef __idolHackerthon__StarDustScene__
-#define __idolHackerthon__StarDustScene__
+#ifndef __idolHackerthon__StreamRigthScene__
+#define __idolHackerthon__StreamRigthScene__
 
+#include "ofMain.h"
 #include "SceneBase.h"
-#include "StarDustParticleSystem.h"
+#include "ShapeParticle.h"
 
-
-class StarDustScene : public SceneBase {
-    
-    vector<StarDustParticleSystem> stardusts;
-    bool isSmall;
-    int r;
+class StreamRightScene : public SceneBase {
+    vector<ShapeParticle> particles;
+    bool isStop;
 public:
-    StarDustScene();
+    
+    StreamRightScene();
     void update();
     void draw();
     
@@ -32,7 +31,6 @@ public:
     void windowResized(int w, int h);
     void dragEvent(ofDragInfo dragInfo);
     void gotMessage(ofMessage msg);
-    
 };
 
-#endif /* defined(__idolHackerthon__StarDustScene__) */
+#endif /* defined(__idolHackerthon__StreamRigthScene__) */

@@ -1,25 +1,24 @@
 //
-//  StarDustScene.h
+//  DropStarDustScene.h
 //  idolHackerthon
 //
 //  Created by NAMBU AKIFUMI on 2015/09/12.
 //
 //
 
-#ifndef __idolHackerthon__StarDustScene__
-#define __idolHackerthon__StarDustScene__
+#ifndef __idolHackerthon__DropStarDustScene__
+#define __idolHackerthon__DropStarDustScene__
 
+#include "ofMain.h"
 #include "SceneBase.h"
-#include "StarDustParticleSystem.h"
+#include "DropStarDust.h"
 
-
-class StarDustScene : public SceneBase {
+class DropStarDustScene : public SceneBase {
+    vector<DropStarDust> stardusts;
     
-    vector<StarDustParticleSystem> stardusts;
-    bool isSmall;
-    int r;
 public:
-    StarDustScene();
+    DropStarDustScene();
+    
     void update();
     void draw();
     
@@ -33,6 +32,8 @@ public:
     void dragEvent(ofDragInfo dragInfo);
     void gotMessage(ofMessage msg);
     
+    bool isStop;
+    
 };
 
-#endif /* defined(__idolHackerthon__StarDustScene__) */
+#endif /* defined(__idolHackerthon__DropStarDustScene__) */

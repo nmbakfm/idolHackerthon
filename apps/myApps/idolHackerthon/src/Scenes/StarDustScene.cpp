@@ -9,6 +9,9 @@
 #include "StarDustScene.h"
 
 StarDustScene::StarDustScene(){
+    r = 200;
+    isSmall = false;
+    ofBackground(255);
 }
 
 void StarDustScene::update(){
@@ -21,9 +24,19 @@ void StarDustScene::update(){
     for (vector<StarDustParticleSystem>::iterator it = stardusts.begin(); it != stardusts.end(); ++it) {
         it->update();
     }
+    
+    if(isSmall){
+        r -= 10;
+    }
 }
 
 void StarDustScene::draw(){
+    ofBackground(0);
+    ofSetColor(255);
+    if(r > 0){
+    ofCircle(ofGetWidth()/2+300, ofGetHeight()-100, r);
+    ofCircle(ofGetWidth()/2-300, ofGetHeight()-100, r);
+    }
     for (vector<StarDustParticleSystem>::iterator it = stardusts.begin(); it != stardusts.end(); ++it) {
         it->draw();
     }
@@ -38,6 +51,9 @@ void StarDustScene::keyReleased(int key){
     if(key == ' '){
         stardusts.push_back(StarDustParticleSystem(ofVec2f(ofGetWidth()/2 - 300, 100)));
         stardusts.push_back(StarDustParticleSystem(ofVec2f(ofGetWidth()/2 + 300, 100)));
+    }
+    if(key == 'z'){
+        isSmall = true;
     }
 }
 

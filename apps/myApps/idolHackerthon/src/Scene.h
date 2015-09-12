@@ -14,5 +14,8 @@
 #include "SquareRippleScene.h"
 #include "CircleRippleScene.h"
 #include "StarDustScene.h"
+#include "StreamLeftScene.h"
+#include "StreamRigthScene.h"
+#include "DropStarDustScene.h"
 
 #endif

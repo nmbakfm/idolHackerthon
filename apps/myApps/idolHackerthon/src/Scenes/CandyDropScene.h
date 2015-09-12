@@ -32,6 +32,8 @@ public:
     void dragEvent(ofDragInfo dragInfo);
     void gotMessage(ofMessage msg);
     
+    bool isStop;
+    
 };
 
 #endif /* defined(__idolHackerthon__CandyDropScene__) */

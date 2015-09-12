@@ -10,6 +10,7 @@
 
 SquareRippleScene::SquareRippleScene(){
     
+    ofBackground(255);
 }
 
 void SquareRippleScene::update(){

@@ -1,23 +1,22 @@
 //
-//  StarDust.h
+//  DropStarDust.h
 //  idolHackerthon
 //
 //  Created by NAMBU AKIFUMI on 2015/09/12.
 //
 //
 
-#ifndef __idolHackerthon__StarDust__
-#define __idolHackerthon__StarDust__
+#ifndef __idolHackerthon__DropStarDust__
+#define __idolHackerthon__DropStarDust__
 
 #include "ofMain.h"
 
-class StarDust {
+class DropStarDust {
     ofVec2f pos;
-    ofVec2f vel;
     float alpha;
     float angle;
 public:
-    StarDust(ofVec2f pos);
+    DropStarDust();
     static void init();
     static ofImage star_image;
     void update();
@@ -25,5 +24,4 @@ public:
     bool isDead();
     
 };
-
-#endif /* defined(__idolHackerthon__StarDust__) */
+#endif /* defined(__idolHackerthon__DropStarDust__) */

@@ -1,86 +1,88 @@
 //
-//  CandyDropScene.cpp
+//  DropStarDustScene.cpp
 //  idolHackerthon
 //
 //  Created by NAMBU AKIFUMI on 2015/09/12.
 //
 //
 
-#include "CandyDropScene.h"
+#include "DropStarDustScene.h"
 
 //--------------------------------------------------------------
-CandyDropScene::CandyDropScene(){
-    candies.clear();
+DropStarDustScene::DropStarDustScene(){
+    stardusts.clear();
     isStop = false;
     ofBackground(255);
 }
 
 //--------------------------------------------------------------
-void CandyDropScene::update(){
+void DropStarDustScene::update(){
     if(ofRandom(0,100) < 10 && !isStop){
-        candies.push_back(DropCandy());
+        stardusts.push_back(DropStarDust());
     }
-    for (vector<DropCandy>::iterator it = candies.begin(); it != candies.end(); ++it) {
+    for (vector<DropStarDust>::iterator it = stardusts.begin(); it != stardusts.end(); ++it) {
         if(it->isDead()){
-            candies.erase(it);
+            stardusts.erase(it);
             -- it;
         }
     }
-    for (vector<DropCandy>::iterator it = candies.begin(); it != candies.end(); ++it) {
+    for (vector<DropStarDust>::iterator it = stardusts.begin(); it != stardusts.end(); ++it) {
         it -> update();
     }
 }
 
 //--------------------------------------------------------------
-void CandyDropScene::draw(){
-    for (vector<DropCandy>::iterator it = candies.begin(); it != candies.end(); ++it) {
+void DropStarDustScene::draw(){
+    for (vector<DropStarDust>::iterator it = stardusts.begin(); it != stardusts.end(); ++it) {
         it -> draw();
     }
+    
+    cout << stardusts.size() << endl;
 }
 
 //--------------------------------------------------------------
-void CandyDropScene::keyPressed(int key){
+void DropStarDustScene::keyPressed(int key){
     if(key == ' '){
         isStop = true;
     }
 }
 
 //--------------------------------------------------------------
-void CandyDropScene::keyReleased(int key){
+void DropStarDustScene::keyReleased(int key){
     
 }
 
 //--------------------------------------------------------------
-void CandyDropScene::mouseMoved(int x, int y ){
+void DropStarDustScene::mouseMoved(int x, int y ){
     
 }
 
 //--------------------------------------------------------------
-void CandyDropScene::mouseDragged(int x, int y, int button){
+void DropStarDustScene::mouseDragged(int x, int y, int button){
     
 }
 
 //--------------------------------------------------------------
-void CandyDropScene::mousePressed(int x, int y, int button){
+void DropStarDustScene::mousePressed(int x, int y, int button){
     
 }
 
 //--------------------------------------------------------------
-void CandyDropScene::mouseReleased(int x, int y, int button){
+void DropStarDustScene::mouseReleased(int x, int y, int button){
     
 }
 
 //--------------------------------------------------------------
-void CandyDropScene::windowResized(int w, int h){
+void DropStarDustScene::windowResized(int w, int h){
     
 }
 
 //--------------------------------------------------------------
-void CandyDropScene::gotMessage(ofMessage msg){
+void DropStarDustScene::gotMessage(ofMessage msg){
     
 }
 
 //--------------------------------------------------------------
-void CandyDropScene::dragEvent(ofDragInfo dragInfo){
+void DropStarDustScene::dragEvent(ofDragInfo dragInfo){
     
 }
