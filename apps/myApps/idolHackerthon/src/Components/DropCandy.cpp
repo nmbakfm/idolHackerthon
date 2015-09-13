@@ -9,7 +9,7 @@
 #include "DropCandy.h"
 
 DropCandy::DropCandy(){
-    alpha = 60;
+    alpha = 120;
     pos = ofVec2f(ofRandomWidth(), -100);
     r = ofRandom(50);
     color.setHsb(ofRandom(255), 255, 255);
@@ -17,7 +17,7 @@ DropCandy::DropCandy(){
 
 void DropCandy::update(){
     pos += ofVec2f(0,2);
-    alpha -= 0.2;
+    alpha -= 0.4;
 }
 
 void DropCandy::draw(){

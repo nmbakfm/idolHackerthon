@@ -6,11 +6,11 @@ void ofApp::setup(){
     ofEnableSmoothing();
     ofSetCircleResolution(128);
     
-    
+    Heart::init();
     StarDust::init();
     DropStarDust::init();
     
-    scene = new CandyDropScene();
+    scene = new WhiteScene();
 }
 
 //--------------------------------------------------------------
@@ -33,17 +33,21 @@ void ofApp::keyReleased(int key){
     if(key == '1'){
         scene = new CandyDropScene();
     }else if(key == '2'){
-        scene = new SquareRippleScene();
-    }else if(key == '3'){
-        scene = new StarDustScene();
-    }else if(key == '4'){
-        scene = new StreamLeftScene();
-    }else if(key == '5'){
         scene = new CircleRippleScene();
+    }else if(key == '3'){
+        scene = new StreamLeftScene();
+    }else if(key == '4'){
+        scene = new StarDustScene();
+    }else if(key == '5'){
+        scene = new SquareRippleScene();
     }else if(key == '6'){
         scene = new StreamRightScene();
     }else if(key == '7'){
         scene = new DropStarDustScene();
+    }else if(key == '8'){
+        scene = new HeartScene();
+    }else if(key == '9'){
+        scene = new WhiteScene();
     }
     scene -> keyReleased(key);
 }

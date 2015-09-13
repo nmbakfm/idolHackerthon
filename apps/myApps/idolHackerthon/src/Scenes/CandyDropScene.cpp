@@ -17,7 +17,7 @@ CandyDropScene::CandyDropScene(){
 
 //--------------------------------------------------------------
 void CandyDropScene::update(){
-    if(ofRandom(0,100) < 10 && !isStop){
+    if(ofRandom(0,100) < 15 && !isStop){
         candies.push_back(DropCandy());
     }
     for (vector<DropCandy>::iterator it = candies.begin(); it != candies.end(); ++it) {

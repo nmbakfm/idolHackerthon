@@ -17,5 +17,7 @@
 #include "StreamLeftScene.h"
 #include "StreamRigthScene.h"
 #include "DropStarDustScene.h"
+#include "HeartScene.h"
+#include "WhiteScene.h"
 
 #endif

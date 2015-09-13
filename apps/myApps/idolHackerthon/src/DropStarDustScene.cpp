@@ -17,7 +17,7 @@ DropStarDustScene::DropStarDustScene(){
 
 //--------------------------------------------------------------
 void DropStarDustScene::update(){
-    if(ofRandom(0,100) < 10 && !isStop){
+    if(ofRandom(0,100) < 20 && !isStop){
         stardusts.push_back(DropStarDust());
     }
     for (vector<DropStarDust>::iterator it = stardusts.begin(); it != stardusts.end(); ++it) {
