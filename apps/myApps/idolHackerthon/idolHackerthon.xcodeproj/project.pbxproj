@@ -9,23 +9,23 @@
 /* Begin PBXBuildFile section */
 		0546D1A38E13BD319CC9755B /* OscReceivedElements.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9BF3AA0D4FAA89D0F8A0E545 /* OscReceivedElements.cpp */; };
 		1CD33E884D9E3358252E82A1 /* ofxToggle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 907C5B5E104864A2D3A25745 /* ofxToggle.cpp */; };
-		216597A01BA3E93C000465E9 /* SceneBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2165979E1BA3E93C000465E9 /* SceneBase.cpp */; };
-		216597A31BA3EA60000465E9 /* CandyDropScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 216597A11BA3EA60000465E9 /* CandyDropScene.cpp */; };
 		216597A81BA3EBE9000465E9 /* DropCandy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 216597A61BA3EBE9000465E9 /* DropCandy.cpp */; };
-		216597AB1BA3F41C000465E9 /* SquareRippleScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 216597A91BA3F41C000465E9 /* SquareRippleScene.cpp */; };
 		216597AE1BA3F4C9000465E9 /* SquareRipple.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 216597AC1BA3F4C9000465E9 /* SquareRipple.cpp */; };
-		216597B11BA3FE01000465E9 /* CircleRippleScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 216597AF1BA3FE01000465E9 /* CircleRippleScene.cpp */; };
-		216597B41BA3FFCD000465E9 /* StarDustScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 216597B21BA3FFCD000465E9 /* StarDustScene.cpp */; };
-		216597B71BA40084000465E9 /* StarDust.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 216597B51BA40084000465E9 /* StarDust.cpp */; };
-		216597BA1BA400C0000465E9 /* StarDustParticleSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 216597B81BA400C0000465E9 /* StarDustParticleSystem.cpp */; };
-		216597BD1BA40E52000465E9 /* StreamLeftScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 216597BB1BA40E52000465E9 /* StreamLeftScene.cpp */; };
 		216597C01BA40F37000465E9 /* ShapeParticle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 216597BE1BA40F37000465E9 /* ShapeParticle.cpp */; };
-		216597C31BA4146D000465E9 /* StreamRigthScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 216597C11BA4146D000465E9 /* StreamRigthScene.cpp */; };
-		216597C61BA41A22000465E9 /* DropStarDustScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 216597C41BA41A22000465E9 /* DropStarDustScene.cpp */; };
-		216597C91BA41A7C000465E9 /* DropStarDust.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 216597C71BA41A7C000465E9 /* DropStarDust.cpp */; };
-		216597CC1BA428F9000465E9 /* HeartScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 216597CA1BA428F9000465E9 /* HeartScene.cpp */; };
 		216597CF1BA42967000465E9 /* Heart.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 216597CD1BA42967000465E9 /* Heart.cpp */; };
-		216597D21BA43072000465E9 /* WhiteScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 216597D01BA43072000465E9 /* WhiteScene.cpp */; };
+		21748FF21BC0DDAE006B4767 /* CandyDropScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21748FDE1BC0DDAE006B4767 /* CandyDropScene.cpp */; };
+		21748FF31BC0DDAE006B4767 /* CircleRippleScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21748FE01BC0DDAE006B4767 /* CircleRippleScene.cpp */; };
+		21748FF41BC0DDAE006B4767 /* DropStarDustScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21748FE21BC0DDAE006B4767 /* DropStarDustScene.cpp */; };
+		21748FF51BC0DDAE006B4767 /* HeartScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21748FE41BC0DDAE006B4767 /* HeartScene.cpp */; };
+		21748FF61BC0DDAE006B4767 /* SceneBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21748FE61BC0DDAE006B4767 /* SceneBase.cpp */; };
+		21748FF71BC0DDAE006B4767 /* SquareRippleScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21748FE81BC0DDAE006B4767 /* SquareRippleScene.cpp */; };
+		21748FF81BC0DDAE006B4767 /* StarDustScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21748FEA1BC0DDAE006B4767 /* StarDustScene.cpp */; };
+		21748FF91BC0DDAE006B4767 /* StreamLeftScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21748FEC1BC0DDAE006B4767 /* StreamLeftScene.cpp */; };
+		21748FFA1BC0DDAE006B4767 /* StreamRigthScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21748FEE1BC0DDAE006B4767 /* StreamRigthScene.cpp */; };
+		21748FFB1BC0DDAE006B4767 /* WhiteScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21748FF01BC0DDAE006B4767 /* WhiteScene.cpp */; };
+		217490021BC0DDE8006B4767 /* DropStarDust.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21748FFC1BC0DDE8006B4767 /* DropStarDust.cpp */; };
+		217490031BC0DDE8006B4767 /* StarDust.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21748FFE1BC0DDE8006B4767 /* StarDust.cpp */; };
+		217490041BC0DDE8006B4767 /* StarDustParticleSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 217490001BC0DDE8006B4767 /* StarDustParticleSystem.cpp */; };
 		28090DEB5109115003E8F1C5 /* UdpSocketWin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5928AA323F5C2690B06C837D /* UdpSocketWin.cpp */; };
 		483908258D00B98B4BE69F07 /* ofxLabel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 78D67A00EB899FAC09430597 /* ofxLabel.cpp */; };
 		4ADB88E2FB52E76A471065DE /* ofxOscParameterSync.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AED834CE4DEC5260AF302A2 /* ofxOscParameterSync.cpp */; };
@@ -111,41 +111,40 @@
 		17E65988300FBD9AAA2CD0CA /* ofxGui.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxGui.h; path = ../../../addons/ofxGui/src/ofxGui.h; sourceTree = SOURCE_ROOT; };
 		1C0DA2561397A7DE0246858B /* ofxGuiGroup.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxGuiGroup.h; path = ../../../addons/ofxGui/src/ofxGuiGroup.h; sourceTree = SOURCE_ROOT; };
 		20F35AFADAF0068B067E713F /* OscReceivedElements.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = OscReceivedElements.h; path = ../../../addons/ofxOsc/libs/oscpack/src/osc/OscReceivedElements.h; sourceTree = SOURCE_ROOT; };
-		2165979E1BA3E93C000465E9 /* SceneBase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SceneBase.cpp; path = Scenes/SceneBase.cpp; sourceTree = "<group>"; };
-		2165979F1BA3E93C000465E9 /* SceneBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SceneBase.h; path = Scenes/SceneBase.h; sourceTree = "<group>"; };
-		216597A11BA3EA60000465E9 /* CandyDropScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CandyDropScene.cpp; path = Scenes/CandyDropScene.cpp; sourceTree = "<group>"; };
-		216597A21BA3EA60000465E9 /* CandyDropScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CandyDropScene.h; path = Scenes/CandyDropScene.h; sourceTree = "<group>"; };
-		216597A51BA3EB0F000465E9 /* Scene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Scene.h; sourceTree = "<group>"; };
 		216597A61BA3EBE9000465E9 /* DropCandy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DropCandy.cpp; path = Components/DropCandy.cpp; sourceTree = "<group>"; };
 		216597A71BA3EBE9000465E9 /* DropCandy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DropCandy.h; path = Components/DropCandy.h; sourceTree = "<group>"; };
-		216597A91BA3F41C000465E9 /* SquareRippleScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SquareRippleScene.cpp; sourceTree = "<group>"; };
-		216597AA1BA3F41C000465E9 /* SquareRippleScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SquareRippleScene.h; sourceTree = "<group>"; };
 		216597AC1BA3F4C9000465E9 /* SquareRipple.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SquareRipple.cpp; path = Components/SquareRipple.cpp; sourceTree = "<group>"; };
 		216597AD1BA3F4C9000465E9 /* SquareRipple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SquareRipple.h; path = Components/SquareRipple.h; sourceTree = "<group>"; };
-		216597AF1BA3FE01000465E9 /* CircleRippleScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CircleRippleScene.cpp; sourceTree = "<group>"; };
-		216597B01BA3FE01000465E9 /* CircleRippleScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleRippleScene.h; sourceTree = "<group>"; };
-		216597B21BA3FFCD000465E9 /* StarDustScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = StarDustScene.cpp; path = Scenes/StarDustScene.cpp; sourceTree = "<group>"; };
-		216597B31BA3FFCD000465E9 /* StarDustScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StarDustScene.h; path = Scenes/StarDustScene.h; sourceTree = "<group>"; };
-		216597B51BA40084000465E9 /* StarDust.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StarDust.cpp; sourceTree = "<group>"; };
-		216597B61BA40084000465E9 /* StarDust.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StarDust.h; sourceTree = "<group>"; };
-		216597B81BA400C0000465E9 /* StarDustParticleSystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StarDustParticleSystem.cpp; sourceTree = "<group>"; };
-		216597B91BA400C0000465E9 /* StarDustParticleSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StarDustParticleSystem.h; sourceTree = "<group>"; };
-		216597BB1BA40E52000465E9 /* StreamLeftScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = StreamLeftScene.cpp; path = Scenes/StreamLeftScene.cpp; sourceTree = "<group>"; };
-		216597BC1BA40E52000465E9 /* StreamLeftScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StreamLeftScene.h; path = Scenes/StreamLeftScene.h; sourceTree = "<group>"; };
 		216597BE1BA40F37000465E9 /* ShapeParticle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ShapeParticle.cpp; path = Components/ShapeParticle.cpp; sourceTree = "<group>"; };
 		216597BF1BA40F37000465E9 /* ShapeParticle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShapeParticle.h; path = Components/ShapeParticle.h; sourceTree = "<group>"; };
-		216597C11BA4146D000465E9 /* StreamRigthScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StreamRigthScene.cpp; sourceTree = "<group>"; };
-		216597C21BA4146D000465E9 /* StreamRigthScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StreamRigthScene.h; sourceTree = "<group>"; };
-		216597C41BA41A22000465E9 /* DropStarDustScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DropStarDustScene.cpp; sourceTree = "<group>"; };
-		216597C51BA41A22000465E9 /* DropStarDustScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropStarDustScene.h; sourceTree = "<group>"; };
-		216597C71BA41A7C000465E9 /* DropStarDust.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DropStarDust.cpp; sourceTree = "<group>"; };
-		216597C81BA41A7C000465E9 /* DropStarDust.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropStarDust.h; sourceTree = "<group>"; };
-		216597CA1BA428F9000465E9 /* HeartScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = HeartScene.cpp; path = Scenes/HeartScene.cpp; sourceTree = "<group>"; };
-		216597CB1BA428F9000465E9 /* HeartScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HeartScene.h; path = Scenes/HeartScene.h; sourceTree = "<group>"; };
 		216597CD1BA42967000465E9 /* Heart.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Heart.cpp; path = Components/Heart.cpp; sourceTree = "<group>"; };
 		216597CE1BA42967000465E9 /* Heart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Heart.h; path = Components/Heart.h; sourceTree = "<group>"; };
-		216597D01BA43072000465E9 /* WhiteScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WhiteScene.cpp; sourceTree = "<group>"; };
-		216597D11BA43072000465E9 /* WhiteScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WhiteScene.h; sourceTree = "<group>"; };
+		21748FDE1BC0DDAE006B4767 /* CandyDropScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CandyDropScene.cpp; path = Scenes/CandyDropScene.cpp; sourceTree = "<group>"; };
+		21748FDF1BC0DDAE006B4767 /* CandyDropScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CandyDropScene.h; path = Scenes/CandyDropScene.h; sourceTree = "<group>"; };
+		21748FE01BC0DDAE006B4767 /* CircleRippleScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CircleRippleScene.cpp; path = Scenes/CircleRippleScene.cpp; sourceTree = "<group>"; };
+		21748FE11BC0DDAE006B4767 /* CircleRippleScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CircleRippleScene.h; path = Scenes/CircleRippleScene.h; sourceTree = "<group>"; };
+		21748FE21BC0DDAE006B4767 /* DropStarDustScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DropStarDustScene.cpp; path = Scenes/DropStarDustScene.cpp; sourceTree = "<group>"; };
+		21748FE31BC0DDAE006B4767 /* DropStarDustScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DropStarDustScene.h; path = Scenes/DropStarDustScene.h; sourceTree = "<group>"; };
+		21748FE41BC0DDAE006B4767 /* HeartScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = HeartScene.cpp; path = Scenes/HeartScene.cpp; sourceTree = "<group>"; };
+		21748FE51BC0DDAE006B4767 /* HeartScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HeartScene.h; path = Scenes/HeartScene.h; sourceTree = "<group>"; };
+		21748FE61BC0DDAE006B4767 /* SceneBase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SceneBase.cpp; path = Scenes/SceneBase.cpp; sourceTree = "<group>"; };
+		21748FE71BC0DDAE006B4767 /* SceneBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SceneBase.h; path = Scenes/SceneBase.h; sourceTree = "<group>"; };
+		21748FE81BC0DDAE006B4767 /* SquareRippleScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SquareRippleScene.cpp; path = Scenes/SquareRippleScene.cpp; sourceTree = "<group>"; };
+		21748FE91BC0DDAE006B4767 /* SquareRippleScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SquareRippleScene.h; path = Scenes/SquareRippleScene.h; sourceTree = "<group>"; };
+		21748FEA1BC0DDAE006B4767 /* StarDustScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = StarDustScene.cpp; path = Scenes/StarDustScene.cpp; sourceTree = "<group>"; };
+		21748FEB1BC0DDAE006B4767 /* StarDustScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StarDustScene.h; path = Scenes/StarDustScene.h; sourceTree = "<group>"; };
+		21748FEC1BC0DDAE006B4767 /* StreamLeftScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = StreamLeftScene.cpp; path = Scenes/StreamLeftScene.cpp; sourceTree = "<group>"; };
+		21748FED1BC0DDAE006B4767 /* StreamLeftScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StreamLeftScene.h; path = Scenes/StreamLeftScene.h; sourceTree = "<group>"; };
+		21748FEE1BC0DDAE006B4767 /* StreamRigthScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = StreamRigthScene.cpp; path = Scenes/StreamRigthScene.cpp; sourceTree = "<group>"; };
+		21748FEF1BC0DDAE006B4767 /* StreamRigthScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StreamRigthScene.h; path = Scenes/StreamRigthScene.h; sourceTree = "<group>"; };
+		21748FF01BC0DDAE006B4767 /* WhiteScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = WhiteScene.cpp; path = Scenes/WhiteScene.cpp; sourceTree = "<group>"; };
+		21748FF11BC0DDAE006B4767 /* WhiteScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WhiteScene.h; path = Scenes/WhiteScene.h; sourceTree = "<group>"; };
+		21748FFC1BC0DDE8006B4767 /* DropStarDust.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DropStarDust.cpp; path = Components/DropStarDust.cpp; sourceTree = "<group>"; };
+		21748FFD1BC0DDE8006B4767 /* DropStarDust.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DropStarDust.h; path = Components/DropStarDust.h; sourceTree = "<group>"; };
+		21748FFE1BC0DDE8006B4767 /* StarDust.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = StarDust.cpp; path = Components/StarDust.cpp; sourceTree = "<group>"; };
+		21748FFF1BC0DDE8006B4767 /* StarDust.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StarDust.h; path = Components/StarDust.h; sourceTree = "<group>"; };
+		217490001BC0DDE8006B4767 /* StarDustParticleSystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = StarDustParticleSystem.cpp; path = Components/StarDustParticleSystem.cpp; sourceTree = "<group>"; };
+		217490011BC0DDE8006B4767 /* StarDustParticleSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StarDustParticleSystem.h; path = Components/StarDustParticleSystem.h; sourceTree = "<group>"; };
 		23640F57DF6C4BB6BFC5DA4C /* PacketListener.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = PacketListener.h; path = ../../../addons/ofxOsc/libs/oscpack/src/ip/PacketListener.h; sourceTree = SOURCE_ROOT; };
 		2834D88A62CD23F3DE2C47D1 /* ofxButton.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxButton.h; path = ../../../addons/ofxGui/src/ofxButton.h; sourceTree = SOURCE_ROOT; };
 		2A5B1FAD3F30C8065C396ACB /* NetworkingUtilsWin.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = NetworkingUtilsWin.cpp; path = ../../../addons/ofxOsc/libs/oscpack/src/ip/win32/NetworkingUtilsWin.cpp; sourceTree = SOURCE_ROOT; };
@@ -258,27 +257,26 @@
 		2165979D1BA3E911000465E9 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
-				2165979E1BA3E93C000465E9 /* SceneBase.cpp */,
-				2165979F1BA3E93C000465E9 /* SceneBase.h */,
-				216597A11BA3EA60000465E9 /* CandyDropScene.cpp */,
-				216597A21BA3EA60000465E9 /* CandyDropScene.h */,
-				216597A51BA3EB0F000465E9 /* Scene.h */,
-				216597A91BA3F41C000465E9 /* SquareRippleScene.cpp */,
-				216597AA1BA3F41C000465E9 /* SquareRippleScene.h */,
-				216597AF1BA3FE01000465E9 /* CircleRippleScene.cpp */,
-				216597B01BA3FE01000465E9 /* CircleRippleScene.h */,
-				216597B21BA3FFCD000465E9 /* StarDustScene.cpp */,
-				216597B31BA3FFCD000465E9 /* StarDustScene.h */,
-				216597BB1BA40E52000465E9 /* StreamLeftScene.cpp */,
-				216597BC1BA40E52000465E9 /* StreamLeftScene.h */,
-				216597C11BA4146D000465E9 /* StreamRigthScene.cpp */,
-				216597C21BA4146D000465E9 /* StreamRigthScene.h */,
-				216597C41BA41A22000465E9 /* DropStarDustScene.cpp */,
-				216597C51BA41A22000465E9 /* DropStarDustScene.h */,
-				216597CA1BA428F9000465E9 /* HeartScene.cpp */,
-				216597CB1BA428F9000465E9 /* HeartScene.h */,
-				216597D01BA43072000465E9 /* WhiteScene.cpp */,
-				216597D11BA43072000465E9 /* WhiteScene.h */,
+				21748FDE1BC0DDAE006B4767 /* CandyDropScene.cpp */,
+				21748FDF1BC0DDAE006B4767 /* CandyDropScene.h */,
+				21748FE01BC0DDAE006B4767 /* CircleRippleScene.cpp */,
+				21748FE11BC0DDAE006B4767 /* CircleRippleScene.h */,
+				21748FE21BC0DDAE006B4767 /* DropStarDustScene.cpp */,
+				21748FE31BC0DDAE006B4767 /* DropStarDustScene.h */,
+				21748FE41BC0DDAE006B4767 /* HeartScene.cpp */,
+				21748FE51BC0DDAE006B4767 /* HeartScene.h */,
+				21748FE61BC0DDAE006B4767 /* SceneBase.cpp */,
+				21748FE71BC0DDAE006B4767 /* SceneBase.h */,
+				21748FE81BC0DDAE006B4767 /* SquareRippleScene.cpp */,
+				21748FE91BC0DDAE006B4767 /* SquareRippleScene.h */,
+				21748FEA1BC0DDAE006B4767 /* StarDustScene.cpp */,
+				21748FEB1BC0DDAE006B4767 /* StarDustScene.h */,
+				21748FEC1BC0DDAE006B4767 /* StreamLeftScene.cpp */,
+				21748FED1BC0DDAE006B4767 /* StreamLeftScene.h */,
+				21748FEE1BC0DDAE006B4767 /* StreamRigthScene.cpp */,
+				21748FEF1BC0DDAE006B4767 /* StreamRigthScene.h */,
+				21748FF01BC0DDAE006B4767 /* WhiteScene.cpp */,
+				21748FF11BC0DDAE006B4767 /* WhiteScene.h */,
 			);
 			name = Scenes;
 			sourceTree = "<group>";
@@ -290,14 +288,14 @@
 				216597A71BA3EBE9000465E9 /* DropCandy.h */,
 				216597AC1BA3F4C9000465E9 /* SquareRipple.cpp */,
 				216597AD1BA3F4C9000465E9 /* SquareRipple.h */,
-				216597B51BA40084000465E9 /* StarDust.cpp */,
-				216597B61BA40084000465E9 /* StarDust.h */,
-				216597B81BA400C0000465E9 /* StarDustParticleSystem.cpp */,
-				216597B91BA400C0000465E9 /* StarDustParticleSystem.h */,
+				21748FFC1BC0DDE8006B4767 /* DropStarDust.cpp */,
+				21748FFD1BC0DDE8006B4767 /* DropStarDust.h */,
+				21748FFE1BC0DDE8006B4767 /* StarDust.cpp */,
+				21748FFF1BC0DDE8006B4767 /* StarDust.h */,
+				217490001BC0DDE8006B4767 /* StarDustParticleSystem.cpp */,
+				217490011BC0DDE8006B4767 /* StarDustParticleSystem.h */,
 				216597BE1BA40F37000465E9 /* ShapeParticle.cpp */,
 				216597BF1BA40F37000465E9 /* ShapeParticle.h */,
-				216597C71BA41A7C000465E9 /* DropStarDust.cpp */,
-				216597C81BA41A7C000465E9 /* DropStarDust.h */,
 				216597CD1BA42967000465E9 /* Heart.cpp */,
 				216597CE1BA42967000465E9 /* Heart.h */,
 			);
@@ -639,50 +637,50 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */,
-				216597A31BA3EA60000465E9 /* CandyDropScene.cpp in Sources */,
+				217490031BC0DDE8006B4767 /* StarDust.cpp in Sources */,
 				216597CF1BA42967000465E9 /* Heart.cpp in Sources */,
 				216597AE1BA3F4C9000465E9 /* SquareRipple.cpp in Sources */,
 				E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */,
-				216597C91BA41A7C000465E9 /* DropStarDust.cpp in Sources */,
+				21748FF31BC0DDAE006B4767 /* CircleRippleScene.cpp in Sources */,
 				856AA354D08AB4B323081444 /* ofxBaseGui.cpp in Sources */,
+				21748FF61BC0DDAE006B4767 /* SceneBase.cpp in Sources */,
 				5CBB2AB3A60F65431D7B555D /* ofxButton.cpp in Sources */,
 				B266578FC55D23BFEBC042E7 /* ofxGuiGroup.cpp in Sources */,
 				483908258D00B98B4BE69F07 /* ofxLabel.cpp in Sources */,
 				216597C01BA40F37000465E9 /* ShapeParticle.cpp in Sources */,
 				216597A81BA3EBE9000465E9 /* DropCandy.cpp in Sources */,
+				217490041BC0DDE8006B4767 /* StarDustParticleSystem.cpp in Sources */,
 				F285EB3169F1566CA3D93C20 /* ofxPanel.cpp in Sources */,
 				837220E80EB56CD44AD27F2A /* ofxSlider.cpp in Sources */,
+				21748FF21BC0DDAE006B4767 /* CandyDropScene.cpp in Sources */,
 				B56FE57CC35806596D38118C /* ofxSliderGroup.cpp in Sources */,
+				21748FF91BC0DDAE006B4767 /* StreamLeftScene.cpp in Sources */,
 				1CD33E884D9E3358252E82A1 /* ofxToggle.cpp in Sources */,
 				72A929D3561B8232A182ABFC /* ofxOscBundle.cpp in Sources */,
 				5864AD82E20F15536D054EA3 /* ofxOscMessage.cpp in Sources */,
 				4ADB88E2FB52E76A471065DE /* ofxOscParameterSync.cpp in Sources */,
 				640279EE111671BD026CB013 /* ofxOscReceiver.cpp in Sources */,
 				8F5205AEF8861EF234F0651A /* ofxOscSender.cpp in Sources */,
+				21748FFB1BC0DDAE006B4767 /* WhiteScene.cpp in Sources */,
 				ADE367465D2A8EBAD4C7A8D9 /* IpEndpointName.cpp in Sources */,
 				67FE4C7B15C2F0478C8126C2 /* NetworkingUtils.cpp in Sources */,
 				510CAFE035E576A4E1502D52 /* UdpSocket.cpp in Sources */,
-				216597D21BA43072000465E9 /* WhiteScene.cpp in Sources */,
 				A29D8C96AE042ECEAA1BD4F3 /* NetworkingUtilsWin.cpp in Sources */,
-				216597C61BA41A22000465E9 /* DropStarDustScene.cpp in Sources */,
 				28090DEB5109115003E8F1C5 /* UdpSocketWin.cpp in Sources */,
-				216597BA1BA400C0000465E9 /* StarDustParticleSystem.cpp in Sources */,
-				216597B71BA40084000465E9 /* StarDust.cpp in Sources */,
 				62545D179C94265CA1389D4A /* OscOutboundPacketStream.cpp in Sources */,
+				21748FF71BC0DDAE006B4767 /* SquareRippleScene.cpp in Sources */,
+				21748FF51BC0DDAE006B4767 /* HeartScene.cpp in Sources */,
 				C4782ECC372420ACE0615B74 /* OscPrintReceivedElements.cpp in Sources */,
+				21748FF81BC0DDAE006B4767 /* StarDustScene.cpp in Sources */,
 				0546D1A38E13BD319CC9755B /* OscReceivedElements.cpp in Sources */,
+				217490021BC0DDE8006B4767 /* DropStarDust.cpp in Sources */,
+				21748FFA1BC0DDAE006B4767 /* StreamRigthScene.cpp in Sources */,
 				879A251454401BC0B6E4F238 /* OscTypes.cpp in Sources */,
-				216597CC1BA428F9000465E9 /* HeartScene.cpp in Sources */,
 				63B57AC5BF4EF088491E0317 /* ofxXmlSettings.cpp in Sources */,
-				216597A01BA3E93C000465E9 /* SceneBase.cpp in Sources */,
-				216597BD1BA40E52000465E9 /* StreamLeftScene.cpp in Sources */,
 				933A2227713C720CEFF80FD9 /* tinyxml.cpp in Sources */,
+				21748FF41BC0DDAE006B4767 /* DropStarDustScene.cpp in Sources */,
 				9D44DC88EF9E7991B4A09951 /* tinyxmlerror.cpp in Sources */,
-				216597AB1BA3F41C000465E9 /* SquareRippleScene.cpp in Sources */,
-				216597B11BA3FE01000465E9 /* CircleRippleScene.cpp in Sources */,
-				216597C31BA4146D000465E9 /* StreamRigthScene.cpp in Sources */,
 				5A4349E9754D6FA14C0F2A3A /* tinyxmlparser.cpp in Sources */,
-				216597B41BA3FFCD000465E9 /* StarDustScene.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
