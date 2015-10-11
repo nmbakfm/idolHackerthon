@@ -10,7 +10,7 @@ void ofApp::setup(){
     StarDust::init();
     DropStarDust::init();
     
-    scene = new WhiteScene();
+    scene = new SquareMatrixScene();
 }
 
 //--------------------------------------------------------------

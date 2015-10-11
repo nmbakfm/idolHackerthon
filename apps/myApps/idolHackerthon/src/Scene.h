@@ -19,5 +19,6 @@
 #include "DropStarDustScene.h"
 #include "HeartScene.h"
 #include "WhiteScene.h"
+#include "SquareMatrixScene.h"
 
 #endif
