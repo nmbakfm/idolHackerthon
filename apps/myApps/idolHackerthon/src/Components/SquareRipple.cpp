@@ -41,7 +41,7 @@ void SquareRipple::draw(){
     ofSetLineWidth(3);
     ofNoFill();
     for(int i=0; i<5; ++i){
-        ofSetColor(0, 255, 255, alpha - i*30);
+        ofSetColor(0, 128, 255, alpha - i*30);
         if(isRect){
             ofRect(0, 0, MAX(r-i*30,0), MAX(r-i*30,0));
         }else{

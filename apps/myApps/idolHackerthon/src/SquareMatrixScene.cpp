@@ -36,7 +36,7 @@ void SquareMatrixScene::draw(){
         for (int j=-(ofGetHeight()/SQUARE_MATRIX_SCENE_BLOCK_SIZE); j<ofGetHeight()/SQUARE_MATRIX_SCENE_BLOCK_SIZE; ++j) {
             ofPushMatrix();
             ofTranslate(i*SQUARE_MATRIX_SCENE_BLOCK_SIZE, j*SQUARE_MATRIX_SCENE_BLOCK_SIZE);
-            ofRotate(angle, 0, 0, 1);
+            ofRotate(angle, 5, 3, 1);
             ofRect(0, 0, SQUARE_MATRIX_SCENE_BLOCK_SIZE-2, SQUARE_MATRIX_SCENE_BLOCK_SIZE-2);
             ofPopMatrix();
         }

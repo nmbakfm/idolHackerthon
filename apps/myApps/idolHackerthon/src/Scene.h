@@ -20,5 +20,7 @@
 #include "HeartScene.h"
 #include "WhiteScene.h"
 #include "SquareMatrixScene.h"
+#include "SpotLightScene.h"
+#include "StroboScene.h"
 
 #endif

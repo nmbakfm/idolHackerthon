@@ -7,6 +7,7 @@
 //
 
 #include "ShapeParticle.h"
+#define STREAM_FUWAFUWA true
 
 ShapeParticle::ShapeParticle(){
     pattern = (int)ofRandom(0, 3);
@@ -19,7 +20,7 @@ ShapeParticle::ShapeParticle(){
 ShapeParticle::ShapeParticle(bool _isDirectionLeft){
     isDirectionLeft = _isDirectionLeft;
     pattern = (int)ofRandom(0, 3);
-    r = ofRandom(50);
+    r = ofRandom(30,100);
     angle = ofRandom(0, 360);
     color.setHsb(ofRandom(0, 255), 255, 255, 60);
     if(isDirectionLeft){
@@ -31,11 +32,17 @@ ShapeParticle::ShapeParticle(bool _isDirectionLeft){
 
 
 void ShapeParticle::update(){
+#if STREAM_FUWAFUWA
+    vel += ofVec2f(ofRandom(-1, 1), ofRandom(-1,1)).normalize();
+    vel = 15*vel.normalize();
+    pos += vel;
+#else
     if(isDirectionLeft){
-        pos += ofVec2f(15, -1);
+        pos += ofVec2f(-15, 1);
     }else{
         pos += ofVec2f(-15, -1);
     }
+#endif
     angle += 3;
 }
 
@@ -43,7 +50,7 @@ void ShapeParticle::draw(){
     ofPushStyle();
     ofPushMatrix();
     ofTranslate(pos);
-    ofRotate(angle);
+    ofRotate(angle, 11,13,17);
     ofSetColor(color);
     if (pattern == 0) {
         ofCircle(0, 0, r);
@@ -59,5 +66,5 @@ void ShapeParticle::draw(){
 }
 
 bool ShapeParticle::isDead(){
-    return pos.x > ofGetWidth() + 300;
+    return pos.x > ofGetWidth() + 300 || pos.x < - 300 || pos.y > ofGetHeight() + 300 || pos.y < -300;
 }

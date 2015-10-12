@@ -28,7 +28,11 @@ void WhiteScene::keyPressed(int key){
 
 //--------------------------------------------------------------
 void WhiteScene::keyReleased(int key){
-    
+    if(key == ' '){
+        ofColor color;
+        color.setHsb(ofRandom(255), 128, 255);
+        ofBackground(color);
+    }
 }
 
 //--------------------------------------------------------------

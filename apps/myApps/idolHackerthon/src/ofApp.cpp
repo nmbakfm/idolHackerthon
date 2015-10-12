@@ -5,6 +5,7 @@ void ofApp::setup(){
     ofBackground(255);
     ofEnableSmoothing();
     ofSetCircleResolution(128);
+    ofSetFrameRate(100);
     
     Heart::init();
     StarDust::init();
@@ -31,7 +32,7 @@ void ofApp::keyPressed(int key){
 //--------------------------------------------------------------
 void ofApp::keyReleased(int key){
     if(key == '1'){
-        scene = new CandyDropScene();
+        scene = new SquareMatrixScene();
     }else if(key == '2'){
         scene = new CircleRippleScene();
     }else if(key == '3'){
@@ -45,7 +46,7 @@ void ofApp::keyReleased(int key){
     }else if(key == '7'){
         scene = new DropStarDustScene();
     }else if(key == '8'){
-        scene = new HeartScene();
+        scene = new StroboScene();
     }else if(key == '9'){
         scene = new WhiteScene();
     }

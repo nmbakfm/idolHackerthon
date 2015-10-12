@@ -14,6 +14,7 @@
 class ShapeParticle {
     int pattern;
     ofVec2f pos;
+    ofVec2f vel;
     float angle;
     float r;
     ofColor color;
