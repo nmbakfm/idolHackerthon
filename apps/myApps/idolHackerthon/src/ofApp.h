@@ -2,6 +2,7 @@
 
 #include "ofMain.h"
 #include "Scene.h"
+#include "MovieCompositionManager.h"
 
 class ofApp : public ofBaseApp{
 
@@ -20,6 +21,6 @@ class ofApp : public ofBaseApp{
 		void dragEvent(ofDragInfo dragInfo);
 		void gotMessage(ofMessage msg);
     
-    SceneBase *scene;
+    MovieCompositionManager movieCompositionManager;
 		
 };

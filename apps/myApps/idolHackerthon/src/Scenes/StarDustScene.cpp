@@ -11,7 +11,6 @@
 StarDustScene::StarDustScene(){
     r = 200;
     isSmall = false;
-    ofBackground(255);
 }
 
 void StarDustScene::update(){

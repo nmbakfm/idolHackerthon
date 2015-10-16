@@ -9,8 +9,6 @@
 #include "CircleRippleScene.h"
 
 CircleRippleScene::CircleRippleScene(){
-    
-    ofBackground(255);
 }
 
 void CircleRippleScene::update(){

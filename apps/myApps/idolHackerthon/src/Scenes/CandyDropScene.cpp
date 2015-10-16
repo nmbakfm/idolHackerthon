@@ -12,7 +12,6 @@
 CandyDropScene::CandyDropScene(){
     candies.clear();
     isStop = false;
-    ofBackground(255);
 }
 
 //--------------------------------------------------------------

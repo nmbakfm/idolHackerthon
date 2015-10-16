@@ -9,8 +9,6 @@
 #include "SquareRippleScene.h"
 
 SquareRippleScene::SquareRippleScene(){
-    
-    ofBackground(255);
 }
 
 void SquareRippleScene::update(){

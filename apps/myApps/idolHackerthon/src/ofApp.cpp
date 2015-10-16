@@ -10,77 +10,95 @@ void ofApp::setup(){
     Heart::init();
     StarDust::init();
     DropStarDust::init();
+    ofBackground(255, 128, 0);
     
-    scene = new SquareMatrixScene();
+    movieCompositionManager.setScene(SquareMatrixSceneId);
+    movieCompositionManager.setScene(SquareRippleSceneId);
 }
 
 //--------------------------------------------------------------
 void ofApp::update(){
-    scene -> update();
+    movieCompositionManager.update();
 }
 
 //--------------------------------------------------------------
 void ofApp::draw(){
-    scene -> draw();
+    movieCompositionManager.draw();
 }
 
 //--------------------------------------------------------------
 void ofApp::keyPressed(int key){
-    scene -> keyPressed(key);
+    movieCompositionManager.keyPressed(key);
 }
 
 //--------------------------------------------------------------
 void ofApp::keyReleased(int key){
-    if(key == '1'){
-        scene = new SquareMatrixScene();
-    }else if(key == '2'){
-        scene = new CircleRippleScene();
-    }else if(key == '3'){
-        scene = new StreamLeftScene();
-    }else if(key == '4'){
-        scene = new StarDustScene();
-    }else if(key == '5'){
-        scene = new SquareRippleScene();
-    }else if(key == '6'){
-        scene = new StreamRightScene();
-    }else if(key == '7'){
-        scene = new DropStarDustScene();
-    }else if(key == '8'){
-        scene = new StroboScene();
-    }else if(key == '9'){
-        scene = new WhiteScene();
+    movieCompositionManager.keyReleased(key);
+    switch (key) {
+        case '1':
+            movieCompositionManager.clearScenes();
+            break;
+        case '2':
+            movieCompositionManager.clearScenes();
+            break;
+        case '3':
+            movieCompositionManager.clearScenes();
+            break;
+        case '4':
+            movieCompositionManager.clearScenes();
+            break;
+        case '5':
+            movieCompositionManager.clearScenes();
+            break;
+        case '6':
+            movieCompositionManager.clearScenes();
+            break;
+        case '7':
+            movieCompositionManager.clearScenes();
+            break;
+        case '8':
+            movieCompositionManager.clearScenes();
+            break;
+        case '9':
+            movieCompositionManager.clearScenes();
+            break;
+        case '0':
+            movieCompositionManager.clearScenes();
+            break;
+            
+        default:
+            break;
     }
-    scene -> keyReleased(key);
 }
 
 //--------------------------------------------------------------
 void ofApp::mouseMoved(int x, int y ){
-    scene -> mouseMoved(x, y);
+    movieCompositionManager.mouseMoved(x, y);
 }
 
 //--------------------------------------------------------------
 void ofApp::mouseDragged(int x, int y, int button){
-    scene -> mouseDragged(x, y, button);
+    movieCompositionManager.mouseDragged(x, y, button);
 }
 
 //--------------------------------------------------------------
 void ofApp::mousePressed(int x, int y, int button){
-    scene -> mousePressed(x, y, button);
+    movieCompositionManager.mousePressed(x, y, button);
 }
 
 //--------------------------------------------------------------
 void ofApp::mouseReleased(int x, int y, int button){
-    scene -> mouseReleased(x, y, button);
+    movieCompositionManager.mouseReleased(x, y, button);
 }
 
 //--------------------------------------------------------------
 void ofApp::windowResized(int w, int h){
-    scene -> windowResized(w, h);
+    movieCompositionManager.windowResized(w, h);
 }
 
 //--------------------------------------------------------------
 void ofApp::gotMessage(ofMessage msg){
-    scene -> gotMessage(msg);
+    movieCompositionManager.gotMessage(msg);
 }
 
 //--------------------------------------------------------------

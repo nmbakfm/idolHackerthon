@@ -10,7 +10,6 @@
 
 StreamLeftScene::StreamLeftScene(){
     isStop = false;
-    ofBackground(255);
 }
 
 void StreamLeftScene::update(){

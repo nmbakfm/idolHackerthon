@@ -23,4 +23,19 @@
 #include "SpotLightScene.h"
 #include "StroboScene.h"
 
+enum SceneIdentifier{
+    CandyDropSceneId,
+    SquareMatrixSceneId,
+    SquareRippleSceneId,
+    CircleRippleSceneId,
+    StarDustSceneId,
+    StreamLeftSceneId,
+    StreamRightSceneId,
+    DropStarDustSceneId,
+    HeartSceneId,
+    WhiteSceneId,
+    SpotLightSceneId,
+    StroboSceneId
+};
+
 #endif

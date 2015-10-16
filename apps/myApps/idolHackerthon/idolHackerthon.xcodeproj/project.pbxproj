@@ -17,7 +17,6 @@
 		21748FF31BC0DDAE006B4767 /* CircleRippleScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21748FE01BC0DDAE006B4767 /* CircleRippleScene.cpp */; };
 		21748FF41BC0DDAE006B4767 /* DropStarDustScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21748FE21BC0DDAE006B4767 /* DropStarDustScene.cpp */; };
 		21748FF51BC0DDAE006B4767 /* HeartScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21748FE41BC0DDAE006B4767 /* HeartScene.cpp */; };
-		21748FF61BC0DDAE006B4767 /* SceneBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21748FE61BC0DDAE006B4767 /* SceneBase.cpp */; };
 		21748FF71BC0DDAE006B4767 /* SquareRippleScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21748FE81BC0DDAE006B4767 /* SquareRippleScene.cpp */; };
 		21748FF81BC0DDAE006B4767 /* StarDustScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21748FEA1BC0DDAE006B4767 /* StarDustScene.cpp */; };
 		21748FF91BC0DDAE006B4767 /* StreamLeftScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21748FEC1BC0DDAE006B4767 /* StreamLeftScene.cpp */; };
@@ -30,6 +29,7 @@
 		217490101BCA577C006B4767 /* SpotLightScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2174900E1BCA577C006B4767 /* SpotLightScene.cpp */; };
 		217490131BCA5D6D006B4767 /* SpotLightTriangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 217490111BCA5D6D006B4767 /* SpotLightTriangle.cpp */; };
 		217490161BCB46F1006B4767 /* StroboScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 217490141BCB46F1006B4767 /* StroboScene.cpp */; };
+		217490191BCB66EA006B4767 /* MovieCompositionManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 217490171BCB66EA006B4767 /* MovieCompositionManager.cpp */; };
 		28090DEB5109115003E8F1C5 /* UdpSocketWin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5928AA323F5C2690B06C837D /* UdpSocketWin.cpp */; };
 		483908258D00B98B4BE69F07 /* ofxLabel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 78D67A00EB899FAC09430597 /* ofxLabel.cpp */; };
 		4ADB88E2FB52E76A471065DE /* ofxOscParameterSync.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AED834CE4DEC5260AF302A2 /* ofxOscParameterSync.cpp */; };
@@ -131,7 +131,6 @@
 		21748FE31BC0DDAE006B4767 /* DropStarDustScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DropStarDustScene.h; path = Scenes/DropStarDustScene.h; sourceTree = "<group>"; };
 		21748FE41BC0DDAE006B4767 /* HeartScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = HeartScene.cpp; path = Scenes/HeartScene.cpp; sourceTree = "<group>"; };
 		21748FE51BC0DDAE006B4767 /* HeartScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HeartScene.h; path = Scenes/HeartScene.h; sourceTree = "<group>"; };
-		21748FE61BC0DDAE006B4767 /* SceneBase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SceneBase.cpp; path = Scenes/SceneBase.cpp; sourceTree = "<group>"; };
 		21748FE71BC0DDAE006B4767 /* SceneBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SceneBase.h; path = Scenes/SceneBase.h; sourceTree = "<group>"; };
 		21748FE81BC0DDAE006B4767 /* SquareRippleScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SquareRippleScene.cpp; path = Scenes/SquareRippleScene.cpp; sourceTree = "<group>"; };
 		21748FE91BC0DDAE006B4767 /* SquareRippleScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SquareRippleScene.h; path = Scenes/SquareRippleScene.h; sourceTree = "<group>"; };
@@ -158,6 +157,8 @@
 		217490121BCA5D6D006B4767 /* SpotLightTriangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SpotLightTriangle.h; path = Components/SpotLightTriangle.h; sourceTree = "<group>"; };
 		217490141BCB46F1006B4767 /* StroboScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StroboScene.cpp; sourceTree = "<group>"; };
 		217490151BCB46F1006B4767 /* StroboScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StroboScene.h; sourceTree = "<group>"; };
+		217490171BCB66EA006B4767 /* MovieCompositionManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MovieCompositionManager.cpp; sourceTree = "<group>"; };
+		217490181BCB66EA006B4767 /* MovieCompositionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieCompositionManager.h; sourceTree = "<group>"; };
 		23640F57DF6C4BB6BFC5DA4C /* PacketListener.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = PacketListener.h; path = ../../../addons/ofxOsc/libs/oscpack/src/ip/PacketListener.h; sourceTree = SOURCE_ROOT; };
 		2834D88A62CD23F3DE2C47D1 /* ofxButton.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxButton.h; path = ../../../addons/ofxGui/src/ofxButton.h; sourceTree = SOURCE_ROOT; };
 		2A5B1FAD3F30C8065C396ACB /* NetworkingUtilsWin.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = NetworkingUtilsWin.cpp; path = ../../../addons/ofxOsc/libs/oscpack/src/ip/win32/NetworkingUtilsWin.cpp; sourceTree = SOURCE_ROOT; };
@@ -278,7 +279,6 @@
 				21748FE31BC0DDAE006B4767 /* DropStarDustScene.h */,
 				21748FE41BC0DDAE006B4767 /* HeartScene.cpp */,
 				21748FE51BC0DDAE006B4767 /* HeartScene.h */,
-				21748FE61BC0DDAE006B4767 /* SceneBase.cpp */,
 				21748FE71BC0DDAE006B4767 /* SceneBase.h */,
 				21748FE81BC0DDAE006B4767 /* SquareRippleScene.cpp */,
 				21748FE91BC0DDAE006B4767 /* SquareRippleScene.h */,
@@ -534,6 +534,8 @@
 				E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */,
 				E4B69E1F0A3A1BDC003C02F2 /* ofApp.h */,
 				217490071BCA0D90006B4767 /* Constant.h */,
+				217490171BCB66EA006B4767 /* MovieCompositionManager.cpp */,
+				217490181BCB66EA006B4767 /* MovieCompositionManager.h */,
 			);
 			path = src;
 			sourceTree = SOURCE_ROOT;
@@ -666,7 +668,6 @@
 				21748FF31BC0DDAE006B4767 /* CircleRippleScene.cpp in Sources */,
 				856AA354D08AB4B323081444 /* ofxBaseGui.cpp in Sources */,
 				217490161BCB46F1006B4767 /* StroboScene.cpp in Sources */,
-				21748FF61BC0DDAE006B4767 /* SceneBase.cpp in Sources */,
 				5CBB2AB3A60F65431D7B555D /* ofxButton.cpp in Sources */,
 				B266578FC55D23BFEBC042E7 /* ofxGuiGroup.cpp in Sources */,
 				217490131BCA5D6D006B4767 /* SpotLightTriangle.cpp in Sources */,
@@ -703,6 +704,7 @@
 				879A251454401BC0B6E4F238 /* OscTypes.cpp in Sources */,
 				63B57AC5BF4EF088491E0317 /* ofxXmlSettings.cpp in Sources */,
 				933A2227713C720CEFF80FD9 /* tinyxml.cpp in Sources */,
+				217490191BCB66EA006B4767 /* MovieCompositionManager.cpp in Sources */,
 				21748FF41BC0DDAE006B4767 /* DropStarDustScene.cpp in Sources */,
 				9D44DC88EF9E7991B4A09951 /* tinyxmlerror.cpp in Sources */,
 				217490101BCA577C006B4767 /* SpotLightScene.cpp in Sources */,

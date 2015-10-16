@@ -9,7 +9,6 @@
 #include "SpotLightScene.h"
 //--------------------------------------------------------------
 SpotLightScene::SpotLightScene(){
-    ofBackground(255);
     for(int i=0; i<3; ++i){
         angle[i] = ofRandom(360);
         color[i].setHsb(ofRandom(255), 128, 255);

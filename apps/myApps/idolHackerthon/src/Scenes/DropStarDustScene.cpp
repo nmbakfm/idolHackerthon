@@ -12,7 +12,6 @@
 DropStarDustScene::DropStarDustScene(){
     stardusts.clear();
     isStop = false;
-    ofBackground(255);
 }
 
 //--------------------------------------------------------------

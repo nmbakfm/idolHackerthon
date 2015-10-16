@@ -13,7 +13,6 @@
 SquareMatrixScene::SquareMatrixScene(){
     color_id = 0;
     color_num = 4;
-    ofBackground(255, 128, 0);
     current_rect_color.set(255, 128);
     angle=0;
     fieldRotateSpeed = -0.1;
